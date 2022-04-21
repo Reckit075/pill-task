@@ -9,14 +9,15 @@ const StyledPill = styled.div`
   border: 1px solid #000;
   display: flex;
   padding: 4px;
-  column-gap: 2px;
+  column-gap: 1px;
   align-items: center;
   white-space: nowrap;
   flex:0 1;
   &:hover{
       cursor: pointer;
   }
-  margin-right: ${!hasHBlock? '17px':0};
+  margin-right: ${!hasHBlock? '16px':0};
+  margin-left: 8px
 `
 
 const HBlock = styled.span`
